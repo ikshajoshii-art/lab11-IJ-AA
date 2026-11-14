@@ -22,15 +22,14 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(-4, 5), -20)
         self.assertEqual(multiply(0, 10), 0)
 
-    def test_divide(self): # 3 assertions
-        self.assertEqual(divide(10, 2), 5)
-        self.assertEqual(divide(9, 3), 3)
-        self.assertEqual(divide(-10, 2), -5)
+    def test_divide(self):  # 3 assertions
+        self.assertEqual(divide(2, 10), 5)
+        self.assertEqual(divide(3, 9), 3)
+        self.assertEqual(divide(2, -10), -5)
 
-    ######## Partner 2
-    def test_divide_by_zero(self): # 1 assertion
+    def test_divide_by_zero(self):  # 1 assertion
         with self.assertRaises(ZeroDivisionError):
-            divide(5, 0)
+            divide(0, 5)
 
     def test_logarithm(self): # 3 assertions
         self.assertAlmostEqual(logarithm(8, 2), 3)
