@@ -24,13 +24,13 @@ def multiply(a, b):
 def divide(a, b):
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero")
-    return b / a
+    return a/b
 
 
 def logarithm(a, b):
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Invalid logarithm arguments")
-    return math.log(b, a)
+    return math.log(a, b)
 
 
 def exponent(a, b):
