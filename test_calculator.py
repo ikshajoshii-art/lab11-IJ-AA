@@ -1,4 +1,12 @@
+"""
+test_calculator.py
+Unit tests for the calculator functions.
 
+Repository: https://github.com/ikshajoshii-art/lab11-IJ-AA
+
+Partner 1: Iksha Joshi
+Partner 2: Aryan Akirha
+"""
 import unittest
 from calculator import *
 
