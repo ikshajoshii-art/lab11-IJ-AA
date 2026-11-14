@@ -1,7 +1,7 @@
+# https://github.com/ikshajoshii-art/lab11-IJ-AA
 """
 calculator.py
-- Defines functions used to create a simple calculator
-Repository: https://github.com/ikshajoshii-art/lab11-IJ-AA
+Defines functions used to create a simple calculator.
 
 Partner 1: Iksha Joshi
 Partner 2: Aryan Akirha
